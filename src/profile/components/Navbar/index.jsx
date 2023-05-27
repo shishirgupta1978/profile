@@ -18,17 +18,16 @@ export const Navbar = () => {
 
  window.addEventListener("scroll",changeColor);
   return (
-    <header className={color ? 'header-bg':""}>
+    <header className={color ? 'header-bg':''}>
         <NavLink to="/"><h1><span className='logo'>SG</span> Portfolio</h1></NavLink>
-      <nav className={ click ? "active":""}>
-        <NavLink to="/profile/home">Home</NavLink>
-        <NavLink to="/profile/projects">Project</NavLink>
-        <NavLink to="/profile/about">About</NavLink>
-        <NavLink to="/profile/contact">Contact</NavLink>
+      <nav className={ click ? "activenav":""}>
+        <NavLink  onClick={()=> setClick(false)} to="/profile/home">Home</NavLink>
+        <NavLink onClick={()=> setClick(false)} to="/profile/projects">Projects</NavLink>
+        <NavLink  onClick={()=> setClick(false)} to="/profile/about">About</NavLink>
+        <NavLink  onClick={()=> setClick(false)} to="/profile/contact">Contact</NavLink>
       </nav>
       <div className='hamburger' onClick={handleClick}>
         {click ? <FaTimes size={30} style={{color:"#fff"}}/> : <FaBars size={30} style={{color:"#fff"}}/> }
-        
         
       </div>
     </header>

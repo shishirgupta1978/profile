@@ -9,14 +9,15 @@ export const Footer = () => {
             <address>
                 <div className='location'>
                     <FaHome size={20} style={{color:'#fff', marginRight:"2rem"}}/>
-                        <p>123 Housing Society,<br/>Raj Nagar,<br/>India.</p>
+                        
+                        <p>Noida, India.</p>
                     
                 </div>
-                <div className='phone'>
-                    <p><FaPhone size={20} style={{color:'#fff', marginRight:"2rem"}}/> 909090900</p>              </div>
+               {/*  <div className='phone'>
+                   <p><FaPhone size={20} style={{color:'#fff', marginRight:"2rem"}}/> 9015632911</p>              </div>*/}
                 <div className='email'>
                     <p>
-                    <FaMailBulk size={20} style={{color:'#fff', marginRight:"2rem"}}/> abc@gmail.com</p>
+                    <FaMailBulk size={20} style={{color:'#fff', marginRight:"2rem"}}/> shishirgupta2011@gmail.com</p>
                 </div>
 
 
@@ -24,14 +25,14 @@ export const Footer = () => {
             </address>
             <div className='right'>
 
-            <h4>About the company</h4>
-            <p>This is me shishir gupta. React Developer of company. I enjoy discussing new projects and design challengers.</p>
-            <div className='social'>
+            <h4>About Us</h4>
+            <p>I am Shishir Gupta, MCA from IGNOU. I'm a Django/Python/C# Developer who is comfortable with JavaScript, Docker, Git, Django, React, Bootstrap, Django Rest API, SQL, ASP.NET, Redis, Regex, Celery, AWS.</p>
+{/*            <div className='social'>
             <FaFacebook size={30} style={{color:'#fff', marginRight:"1rem"}}/>
             <FaTwitter size={30} style={{color:'#fff', marginRight:"1rem"}}/>
             <FaLinkedin size={30} style={{color:'#fff', marginRight:"1rem"}}/>
 
-            </div>
+  </div>*/}
 
 
 

@@ -13,9 +13,10 @@ export const HomePage = () => {
 
         <div className="content">
 
-          <p>Hi, I'M A FREELANCER</p>
-          <h1>React Developer</h1>
-          <Link to="/profile/project" className='btn'>Projects</Link>
+          <p>Experience in integrating Django with React.</p>
+          <p>(Python, C#, React)</p>
+          <h1>Software Developer</h1>
+          <Link to="/profile/projects" className='btn'>Projects</Link>
           <Link to="/profile/contact" className='btn btn-light'>Contact</Link>
 
         </div>

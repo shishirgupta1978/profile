@@ -9,8 +9,8 @@ export const Card = (props) => {
                 <h2 className='project-title'>{props.title}</h2>
                 <div className='pro-details'><p>{props.text}</p>
                 <div className='pro-btns'>
-                    <NavLink to={props.view} className="btn">View</NavLink>
-                    <NavLink to={props.source} className="btn  btn-light">Source</NavLink>
+                    <NavLink to={props.view} className="btn" style={{width:'100%',textAlign:'center' }}>View</NavLink>
+                  {/*  <NavLink to={props.source} className="btn  btn-light">Source</NavLink>*/}
                 </div>
                 </div>
             </div>
